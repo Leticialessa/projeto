@@ -143,3 +143,8 @@ section.caracteristicas .flex{
     width: 30px;
 
 }
+
+.caracteristicas .especialidade-box img{
+    border-radius: 50%;
+}
+    
