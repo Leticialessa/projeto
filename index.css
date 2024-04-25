@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+body{
+    background-color: rgb(16, 1, 26);
+    height: 100vh;
+}
+
+.aparencia{
+    max-width: 1980px;
+    margin: 0 auto;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .aparencia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(248, 218, 218);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color:aliceblue ;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 150px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+section.superior-site{
+    padding: 130px 5%;
+}
+
+section.superior-site .flex{
+    align-items: center;
+    justify-content: center;   
+    gap: 100px;
+}
+
+.superior-site h1{
+    color: rgb(83, 10, 148);
+    font-size: 60px;
+    line-height: 0px;
+}
+
+.superior-site .txt-topo h1 span{
+    color: rgb(152, 122, 187);
+}
+
+.superior-site h2{
+    color: rgb(152, 122, 187);
+    font-size: 60px;
+    line-height: 0.6;
+    font-weight: 300;
+}
+
+.superior-site .txt-topo p{
+    color: rgb(241, 202, 202);
+    margin: 45px ;
+    font-size: 25px;
+}
+
+.img-topo{
+    padding: 70px;
+}
+
+.superior-site h3{
+    color: rgb(123, 95, 168);
+    font-size: 33px;
+    padding: 50px 3%;
+}
+
+
+.superior-site .txt-topo {
+    color: rgb(241, 202, 202);
+}
+
+.superior-site .txt-topo li{
+    font-size: 20px;
+    margin: 2%;
+}
+
+section.caracteristicas{
+    padding: 10px 15%;
+    font-size: 20px;
+    color: antiquewhite;
+    
+}
+
+section.caracteristicas .flex{
+    gap: 200px;
+}
+
+.caracteristicas .especialidade-box{
+    padding: 30px;
+    border:2px solid  #fff;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+
+
+.caracteristicas h3 {
+    color: rgb(123, 95, 168);
+    text-shadow: 0 0 3px #FF0000;
+
+}
+
+.caracteristicas li{
+    color: rgb(241, 202, 202);
+    font-size: 20px;
+    padding-top: 20px;
+ 
+}
+
+.imagem-icons{
+    width: 30px;
+
+}
